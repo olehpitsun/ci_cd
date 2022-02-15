@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: centos-s-1vcpu-1gb-fra1-01
     steps:
       - name: Deploy Oleh app
         uses: root/root@centos-s-1vcpu-1gb-fra1-01
